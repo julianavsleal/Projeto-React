@@ -10,14 +10,13 @@ font-family: sans-serif;
 }
 
 :root {
-    --purple-200: #9a7bd1;
-    --purple-500: #6b36c8;
-    --purple-800: #441f88;
+    --parchment: #f0ead2ff;
+    --tea-green: #dde5b6ff;
+    --olivine: #adc178ff;
+    --chamoisee: #a98467ff;
+    --umber: #6c584cff;
 
     --black-800: #171717;
-
-    --gray-200: #cccccc;
-    --gray-400: #505861;
 
     --white: #F9F9F9;
 }
@@ -28,7 +27,7 @@ html {
 }
 
 body {
-    background-color: var(--gray-200);
+    background-color: var(--parchment);
     color: var(--black-800);
 }
 
@@ -82,8 +81,8 @@ p {
     width: 100%;
     justify-content: space-between;
     padding: 24px;
-    background-color: var(--purple-800);
-    border-bottom: 1px solid var(--purple-500);
+    background-color: var(--umber);
+    border-bottom: 1px solid var(--chamoisee);
 }
 
 #menu li {
@@ -98,7 +97,7 @@ p {
 }
 
 #menu li a:hover {
-    color: var(--purple-200);
+    color: var(--olivine);
     text-decoration: underline;
 }
 
@@ -133,7 +132,7 @@ footer {
     margin: 0;
     padding: 2rem;
     color: var(--white);
-    background-color: var(--purple-500);
+    background-color: var(--chamoisee);
     font-weight: bold;
     text-align: center;
 }
@@ -215,8 +214,8 @@ form span {
 form button {
     text-align: center;
     padding: 0.75rem 2rem;
-    background: var(--purple-800);
-    border: 1px solid var(--purple-500);
+    background: var(--umber);
+    border: 1px solid var(--chamoisee);
     color: var(--white);
     border-radius: 0.75rem;
     font-weight: 700;
@@ -224,5 +223,5 @@ form button {
 }
 
 form button:hover {
-    background: var(--purple-500);
+    background: var(--chamoisee);
 }
