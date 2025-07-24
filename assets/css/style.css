@@ -1,4 +1,4 @@
-/*Configuração globais*/
+/*Configuração global*/
 * {
 margin: 0;
 padding: 0;
@@ -224,4 +224,16 @@ form button {
 
 form button:hover {
     background: var(--chamoisee);
+}
+
+#mapa{
+    width: 480px;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#endereco > p {
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 600;
 }
